@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medi+ - Seu app de medicamentos</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Icones Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <span class="purple-rainbow-text">Medi+</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#product">Sobre</a></li>
+        <li><a href="#features">Funcionalidades</a></li>
+        <li><a href="#pricing">Planos</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="https://github.com/CarolinaBatatinha/mediplus/tree/main" target="_blank" class="nav-cta">Baixe Agora</a></li>
+      </ul>
+    </nav>
+    
+    <div class="hero">
+      <div class="hero-content">
+        <h1 class="purple-rainbow-text">Controle seus medicamentos com facilidade</h1>
+        <p>Nunca mais esqueça de tomar seus remédios no horário certo</p>
+        <div class="hero-buttons">
+          <a href="#product" class="cta-button primary">Comece Agora</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./assets/logo.png" alt="Aplicativo Medi+ em uso">
+      </div>
+    </div>
+  </header> 
+
+  <section id="product" class="product">
+    <div class="product-header">
+      <h2>O que é o Medi+?</h2>
+      <p class="product-text">O Medi+ é um aplicativo desenvolvido para auxiliar no controle e organização do uso
+         de medicamentos de forma simples, prática e eficiente. Com ele, os usuários podem cadastrar seus remédios, 
+         configurar alertas para os horários corretos de uso, acessar bulas, acompanhar o histórico de utilização 
+         e manter seus dados de saúde organizados em um só lugar. Pensado para promover bem-estar e segurança, o 
+         Medi+ é uma solução ideal para quem precisa de mais controle e tranquilidade na gestão dos cuidados com 
+         a saúde.</p>
+    </div>
+    <div class="product-demo">
+      <img src="./assets/app-screens.png" alt="Telas do aplicativo Medi+">
+    </div>
+  </section>
+
+  <section id="features" class="funcs">
+    <div class="funcs-container">
+      <div class="funcs-title">
+        <h2 class="purple-rainbow-text">Principais Funcionalidades</h2>
+      </div>
+
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">💊</div>
+          <h3>Lembretes de Medicamento</h3>
+          <p>Receba notificações no horário certo para nunca esquecer um medicamento.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📅</div>
+          <h3>Calendário Integrado</h3>
+          <p>Visualize e gerencie seus remédios por dia, semana ou mês com praticidade.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">👨‍⚕️</div>
+          <h3>Contatos Médicos</h3>
+          <p>Adicione e gerencie contatos importantes como médicos e cuidadores.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Relatórios para Profissionais de Saúde</h3>
+          <p>Gere relatórios completos dos medicamentos em uso.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⏱️</div>
+          <h3>Histórico de Uso</h3>
+          <p>Acompanhe o uso dos seus medicamentos ao longo do tempo.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔔</div>
+          <h3>Alertas para Cuidador ou Família</h3>
+          <p>Se uma dose for esquecida, o aplicativo envia uma notificação às pessoas cadastradas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="video-section">
+    <h2>Veja o app em ação</h2>
+    <div class="video-container">
+      <iframe width="860" height="450"
+        src="https://www.youtube.com/embed/R-xng2jBZ6c"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2 class="multi-colored-text">Planos e Preços</h2>
+    <p>Escolha o plano que melhor atende às suas necessidades</p>
+    
+    <div class="pricing-plans">
+      <div class="plan-card">
+        <h3>Básico</h3>
+        <div class="plan-price">Grátis</div>
+        <ul class="plan-features">
+          <li>Lembretes de medicamentos</li>
+          <li>Até 5 medicamentos cadastrados</li>
+          <li>Histórico de 30 dias</li>
+          <li>Suporte por e-mail</li>
+        </ul>
+        <a href="#" class="cta-button">Assinar</a>
+      </div>
+      
+      <div class="plan-card featured">
+        <div class="popular-badge">Mais Popular</div>
+        <h3>Premium</h3>
+        <div class="plan-price">R$ 9,90<span>/mês</span></div>
+        <ul class="plan-features">
+          <li>Todos os recursos do Básico</li>
+          <li>Medicamentos ilimitados</li>
+          <li>Histórico ilimitado</li>
+          <li>Relatórios detalhados</li>
+          <li>Alertas para cuidadores</li>
+          <li>Suporte prioritário</li>
+        </ul>
+        <a href="#" class="cta-button primary">Assinar</a>
+      </div>
+      
+      <div class="plan-card">
+        <h3>Família</h3>
+        <div class="plan-price">R$ 24,90<span>/mês</span></div>
+        <ul class="plan-features">
+          <li>Todos os recursos do Premium</li>
+          <li>Até 5 perfis familiares</li>
+          <li>Controle parental</li>
+          <li>Relatórios familiares</li>
+          <li>Suporte 24/7</li>
+        </ul>
+        <a href="#" class="cta-button">Assinar</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Fale Conosco</h2>
+        <p>Tem dúvidas ou sugestões? Entre em contato com nossa equipe.</p>
+        <div class="contact-details">
+          <p><span class="material-symbols-outlined">mail</span> contato@mediplus.com</p>
+          <p><span class="material-symbols-outlined">call</span> (+351) 9876-9385</p>
+        </div>
+      </div>
+      
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="cta-button primary">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="purple-rainbow-text">Medi+</span>
+        <p>Seu aplicativo para controle de medicamentos</p>
+      </div>
+      
+      <div class="footer-links">
+        <div class="link-group">
+          <h3>Aplicativo</h3>
+          <ul>
+            <li><a href="#product">Sobre</a></li>
+            <li><a href="#features">Funcionalidades</a></li>
+            <li><a href="#pricing">Planos</a></li>
+            <li><a href="#">Baixar</a></li>
+          </ul>
+        </div>
+        
+        <div class="link-group">
+          <h3>Suporte</h3>
+          <ul>
+            <li><a href="#">Central de Ajuda</a></li>
+            <li><a href="#">Perguntas Frequentes</a></li>
+            <li><a href="#">Tutoriais</a></li>
+          </ul>
+        </div>
+        
+        <div class="link-group">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      © 2025 Medi+ | Desenvolvido por Estudantes de Tecnologia
+    </div>
+  </footer>
+
+</body>
+</html>
+
